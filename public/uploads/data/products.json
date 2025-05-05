@@ -1,0 +1,886 @@
+[
+  {
+    "id": "1",
+    "name": "Vitamin C Serum",
+    "category": "Serums & Treatments",
+    "image": "/uploads/products/vitamin-c-serum.jpg",
+    "ingredients": [
+      "Vitamin C",
+      "Hyaluronic Acid"
+    ],
+    "skinType": [
+      "All",
+      "Dull",
+      "Combination"
+    ],
+    "concern": [
+      "Dullness",
+      "Pigmentation"
+    ],
+    "price": "1200",
+    "routineType": "Treat",
+    "isMustHave": true
+  },
+  {
+    "id": "2",
+    "name": "Hydrating Toner",
+    "category": "Toners & Mists",
+    "image": "/uploads/products/hydrating-toner.jpg",
+    "ingredients": [
+      "Glycerin",
+      "Rose Water"
+    ],
+    "skinType": [
+      "Dry",
+      "Sensitive"
+    ],
+    "concern": [
+      "Dryness",
+      "Redness"
+    ],
+    "price": "800",
+    "routineType": "Tone",
+    "isMustHave": true
+  },
+  {
+    "id": "3",
+    "name": "Gel Cleanser",
+    "category": "Cleansers",
+    "image": "/uploads/products/gel-cleanser.jpg",
+    "ingredients": [
+      "Salicylic Acid",
+      "Aloe Vera"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Acne",
+      "Redness"
+    ],
+    "price": "700",
+    "routineType": "Cleanse",
+    "isMustHave": true
+  },
+  {
+    "id": "4",
+    "name": "Night Cream",
+    "category": "Moisturizers",
+    "image": "/uploads/products/night-cream.jpg",
+    "ingredients": [
+      "Peptides",
+      "Shea Butter"
+    ],
+    "skinType": [
+      "Dry",
+      "Sensitive"
+    ],
+    "concern": [
+      "Aging",
+      "Dryness"
+    ],
+    "price": "1500",
+    "routineType": "Moisturize",
+    "isMustHave": true
+  },
+  {
+    "id": "5",
+    "name": "Clay Mask",
+    "category": "Masks",
+    "image": "/uploads/products/clay-mask.jpg",
+    "ingredients": [
+      "Kaolin Clay",
+      "Green Tea"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Acne",
+      "Dullness"
+    ],
+    "price": "850",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "6",
+    "name": "Tinted Sunscreen SPF 50",
+    "category": "Sun Protection",
+    "image": "/uploads/products/tinted-sunscreen.jpg",
+    "ingredients": [
+      "Zinc Oxide",
+      "Niacinamide"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Sun Damage"
+    ],
+    "price": "1200",
+    "routineType": "Protect",
+    "isMustHave": true
+  },
+  {
+    "id": "7",
+    "name": "Under Eye Cream",
+    "category": "Eye Care",
+    "image": "/uploads/products/under-eye-cream.jpg",
+    "ingredients": [
+      "Caffeine",
+      "Peptides"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Dark Circles",
+      "Puffiness"
+    ],
+    "price": "950",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "8",
+    "name": "Cleansing Balm",
+    "category": "Oils & Balms",
+    "image": "/uploads/products/cleansing-balm.jpg",
+    "ingredients": [
+      "Jojoba Oil",
+      "Vitamin E"
+    ],
+    "skinType": [
+      "Dry",
+      "Sensitive"
+    ],
+    "concern": [
+      "Makeup Removal",
+      "Dryness"
+    ],
+    "price": "1100",
+    "routineType": "Cleanse",
+    "isMustHave": false
+  },
+  {
+    "id": "9",
+    "name": "Facial Oil - Rosehip",
+    "category": "Oils & Balms",
+    "image": "/uploads/products/facial-oil-rosehip.jpg",
+    "ingredients": [
+      "Rosehip Oil",
+      "Vitamin A"
+    ],
+    "skinType": [
+      "Dry",
+      "Aging"
+    ],
+    "concern": [
+      "Scars",
+      "Aging"
+    ],
+    "price": "1300",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "10",
+    "name": "Glow Starter Kit",
+    "category": "Kits & Bundles",
+    "image": "/uploads/products/glow-starter-kit.jpg",
+    "ingredients": [
+      "Vitamin C",
+      "Niacinamide",
+      "Hyaluronic Acid"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Dullness",
+      "Pigmentation"
+    ],
+    "price": "3000",
+    "routineType": "Routine",
+    "isMustHave": true
+  },
+  {
+    "id": "11",
+    "name": "Cream Cleanser",
+    "category": "Cleansers",
+    "image": "/uploads/products/cream-cleanser.jpg",
+    "ingredients": [
+      "Ceramides",
+      "Glycolic Acid"
+    ],
+    "skinType": [
+      "Dry",
+      "Sensitive"
+    ],
+    "concern": [
+      "Dryness",
+      "Redness"
+    ],
+    "price": "950",
+    "routineType": "Cleanse",
+    "isMustHave": false
+  },
+  {
+    "id": "12",
+    "name": "Foaming Face Wash",
+    "category": "Cleansers",
+    "image": "/uploads/products/foaming-face-wash.jpg",
+    "ingredients": [
+      "Tea Tree Oil",
+      "Glycerin"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Acne",
+      "Excess Oil"
+    ],
+    "price": "750",
+    "routineType": "Cleanse",
+    "isMustHave": false
+  },
+  {
+    "id": "13",
+    "name": "Oil Cleanser",
+    "category": "Cleansers",
+    "image": "/uploads/products/oil-cleanser.jpg",
+    "ingredients": [
+      "Argan Oil",
+      "Coconut Oil"
+    ],
+    "skinType": [
+      "Dry",
+      "Sensitive"
+    ],
+    "concern": [
+      "Dryness",
+      "Makeup Removal"
+    ],
+    "price": "1200",
+    "routineType": "Cleanse",
+    "isMustHave": false
+  },
+  {
+    "id": "14",
+    "name": "Exfoliating Toner",
+    "category": "Toners & Mists",
+    "image": "/uploads/products/exfoliating-toner.jpg",
+    "ingredients": [
+      "Salicylic Acid",
+      "Lactic Acid"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Acne",
+      "Clogged Pores"
+    ],
+    "price": "900",
+    "routineType": "Tone",
+    "isMustHave": false
+  },
+  {
+    "id": "15",
+    "name": "Face Mists",
+    "category": "Toners & Mists",
+    "image": "/uploads/products/face-mist.jpg",
+    "ingredients": [
+      "Rose Water",
+      "Lavender"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Hydration"
+    ],
+    "price": "650",
+    "routineType": "Tone",
+    "isMustHave": false
+  },
+  {
+    "id": "16",
+    "name": "Balancing Toner",
+    "category": "Toners & Mists",
+    "image": "/uploads/products/balancing-toner.jpg",
+    "ingredients": [
+      "Witch Hazel",
+      "Aloe Vera"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Oil Control",
+      "Pore Minimizing"
+    ],
+    "price": "800",
+    "routineType": "Tone",
+    "isMustHave": false
+  },
+  {
+    "id": "17",
+    "name": "Retinol Serum",
+    "category": "Serums & Treatments",
+    "image": "/uploads/products/retinol-serum.jpg",
+    "ingredients": [
+      "Retinol",
+      "Peptides"
+    ],
+    "skinType": [
+      "All",
+      "Aging"
+    ],
+    "concern": [
+      "Aging",
+      "Wrinkles"
+    ],
+    "price": "1500",
+    "routineType": "Treat",
+    "isMustHave": true
+  },
+  {
+    "id": "18",
+    "name": "Hyaluronic Acid Serum",
+    "category": "Serums & Treatments",
+    "image": "/uploads/products/hyaluronic-acid-serum.jpg",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Vitamin B5"
+    ],
+    "skinType": [
+      "Dry",
+      "Oily"
+    ],
+    "concern": [
+      "Dehydration",
+      "Fine Lines"
+    ],
+    "price": "1000",
+    "routineType": "Treat",
+    "isMustHave": true
+  },
+  {
+    "id": "19",
+    "name": "Niacinamide Serum",
+    "category": "Serums & Treatments",
+    "image": "/uploads/products/niacinamide-serum.jpg",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Pigmentation",
+      "Redness"
+    ],
+    "price": "1100",
+    "routineType": "Treat",
+    "isMustHave": true
+  },
+  {
+    "id": "20",
+    "name": "Spot Treatment",
+    "category": "Serums & Treatments",
+    "image": "/uploads/products/spot-treatment.jpg",
+    "ingredients": [
+      "Salicylic Acid",
+      "Tea Tree Oil"
+    ],
+    "skinType": [
+      "Oily",
+      "Acne Prone"
+    ],
+    "concern": [
+      "Acne",
+      "Spots"
+    ],
+    "price": "600",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "21",
+    "name": "Day Cream",
+    "category": "Moisturizers",
+    "image": "/uploads/products/day-cream.jpg",
+    "ingredients": [
+      "SPF 30",
+      "Vitamin E"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Sun Protection",
+      "Dryness"
+    ],
+    "price": "1200",
+    "routineType": "Moisturize",
+    "isMustHave": false
+  },
+  {
+    "id": "22",
+    "name": "Gel Moisturizer",
+    "category": "Moisturizers",
+    "image": "/uploads/products/gel-moisturizer.jpg",
+    "ingredients": [
+      "Aloe Vera",
+      "Hyaluronic Acid"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Hydration",
+      "Oil Control"
+    ],
+    "price": "950",
+    "routineType": "Moisturize",
+    "isMustHave": false
+  },
+  {
+    "id": "23",
+    "name": "Rich Cream / Barrier Cream",
+    "category": "Moisturizers",
+    "image": "/uploads/products/rich-cream.jpg",
+    "ingredients": [
+      "Ceramides",
+      "Shea Butter"
+    ],
+    "skinType": [
+      "Dry",
+      "Sensitive"
+    ],
+    "concern": [
+      "Dryness",
+      "Skin Barrier Repair"
+    ],
+    "price": "1800",
+    "routineType": "Moisturize",
+    "isMustHave": false
+  },
+  {
+    "id": "24",
+    "name": "Oil-Free Moisturizer",
+    "category": "Moisturizers",
+    "image": "/uploads/products/oil-free-moisturizer.jpg",
+    "ingredients": [
+      "Salicylic Acid",
+      "Niacinamide"
+    ],
+    "skinType": [
+      "Oily",
+      "Acne Prone"
+    ],
+    "concern": [
+      "Acne",
+      "Oil Control"
+    ],
+    "price": "1000",
+    "routineType": "Moisturize",
+    "isMustHave": false
+  },
+  {
+    "id": "25",
+    "name": "Mineral Sunscreen SPF 50",
+    "category": "Sun Protection",
+    "image": "/uploads/products/mineral-sunscreen.jpg",
+    "ingredients": [
+      "Zinc Oxide",
+      "Vitamin E"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Sun Protection"
+    ],
+    "price": "1400",
+    "routineType": "Protect",
+    "isMustHave": false
+  },
+  {
+    "id": "26",
+    "name": "Matte Sunscreen SPF 40",
+    "category": "Sun Protection",
+    "image": "/uploads/products/matte-sunscreen.jpg",
+    "ingredients": [
+      "Zinc Oxide",
+      "Niacinamide"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Sun Protection",
+      "Oil Control"
+    ],
+    "price": "1100",
+    "routineType": "Protect",
+    "isMustHave": false
+  },
+  {
+    "id": "27",
+    "name": "Sheet Mask",
+    "category": "Masks",
+    "image": "/uploads/products/sheet-mask.jpg",
+    "ingredients": [
+      "Aloe Vera",
+      "Green Tea"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Hydration",
+      "Skin Rejuvenation"
+    ],
+    "price": "300",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "28",
+    "name": "Overnight Mask",
+    "category": "Masks",
+    "image": "/uploads/products/overnight-mask.jpg",
+    "ingredients": [
+      "Retinol",
+      "Vitamin C"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Aging",
+      "Dullness"
+    ],
+    "price": "1200",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "29",
+    "name": "Peel-off Mask",
+    "category": "Masks",
+    "image": "/uploads/products/peel-off-mask.jpg",
+    "ingredients": [
+      "Charcoal",
+      "Vitamin E"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Clogged Pores",
+      "Oil Control"
+    ],
+    "price": "850",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "30",
+    "name": "Face Scrub",
+    "category": "Exfoliators",
+    "image": "/uploads/products/face-scrub.jpg",
+    "ingredients": [
+      "Sugar",
+      "Vitamin C"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Exfoliation",
+      "Dullness"
+    ],
+    "price": "700",
+    "routineType": "Exfoliate",
+    "isMustHave": false
+  },
+  {
+    "id": "31",
+    "name": "Chemical Exfoliant (AHA/BHA)",
+    "category": "Exfoliators",
+    "image": "/uploads/products/chemical-exfoliant.jpg",
+    "ingredients": [
+      "Glycolic Acid",
+      "Salicylic Acid"
+    ],
+    "skinType": [
+      "Oily",
+      "Combination"
+    ],
+    "concern": [
+      "Acne",
+      "Clogged Pores"
+    ],
+    "price": "900",
+    "routineType": "Exfoliate",
+    "isMustHave": true
+  },
+  {
+    "id": "32",
+    "name": "Enzyme Peel",
+    "category": "Exfoliators",
+    "image": "/uploads/products/enzyme-peel.jpg",
+    "ingredients": [
+      "Papaya Enzyme",
+      "AHA"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Exfoliation",
+      "Dullness"
+    ],
+    "price": "1000",
+    "routineType": "Exfoliate",
+    "isMustHave": false
+  },
+  {
+    "id": "33",
+    "name": "Facial Brush",
+    "category": "Face Tools",
+    "image": "/uploads/products/facial-brush.jpg",
+    "ingredients": [],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Cleansing",
+      "Exfoliation"
+    ],
+    "price": "1500",
+    "routineType": "Tools",
+    "isMustHave": false
+  },
+  {
+    "id": "34",
+    "name": "Jade Roller",
+    "category": "Face Tools",
+    "image": "/uploads/products/jade-roller.jpg",
+    "ingredients": [],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Skin Rejuvenation"
+    ],
+    "price": "1000",
+    "routineType": "Tools",
+    "isMustHave": false
+  },
+  {
+    "id": "35",
+    "name": "Gua Sha",
+    "category": "Face Tools",
+    "image": "/uploads/products/gua-sha.jpg",
+    "ingredients": [],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Facial Contouring"
+    ],
+    "price": "950",
+    "routineType": "Tools",
+    "isMustHave": false
+  },
+  {
+    "id": "36",
+    "name": "LED Facial Device",
+    "category": "Face Tools",
+    "image": "/uploads/products/led-facial-device.jpg",
+    "ingredients": [],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Acne",
+      "Aging"
+    ],
+    "price": "2500",
+    "routineType": "Tools",
+    "isMustHave": false
+  },
+  {
+    "id": "37",
+    "name": "Glow Kit",
+    "category": "Kits & Bundles",
+    "image": "/uploads/products/glow-kit.jpg",
+    "ingredients": [
+      "Vitamin C",
+      "Niacinamide"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Dullness",
+      "Pigmentation"
+    ],
+    "price": "3500",
+    "routineType": "Routine",
+    "isMustHave": false
+  },
+  {
+    "id": "38",
+    "name": "Acne Kit",
+    "category": "Kits & Bundles",
+    "image": "/uploads/products/acne-kit.jpg",
+    "ingredients": [
+      "Salicylic Acid",
+      "Tea Tree Oil"
+    ],
+    "skinType": [
+      "Oily",
+      "Acne Prone"
+    ],
+    "concern": [
+      "Acne",
+      "Pimples"
+    ],
+    "price": "3000",
+    "routineType": "Routine",
+    "isMustHave": false
+  },
+  {
+    "id": "39",
+    "name": "AM/PM Skincare Set",
+    "category": "Kits & Bundles",
+    "image": "/uploads/products/am-pm-set.jpg",
+    "ingredients": [
+      "Vitamin C",
+      "Peptides"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Anti-aging",
+      "Sun Protection"
+    ],
+    "price": "4000",
+    "routineType": "Routine",
+    "isMustHave": false
+  },
+  {
+    "id": "40",
+    "name": "Starter Kit",
+    "category": "Kits & Bundles",
+    "image": "/uploads/products/starter-kit.jpg",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Niacinamide"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Hydration",
+      "Pigmentation"
+    ],
+    "price": "2500",
+    "routineType": "Routine",
+    "isMustHave": false
+  },
+  {
+    "id": "41",
+    "name": "Lip Balm",
+    "category": "Oils & Balms",
+    "image": "/uploads/products/lip-balm.jpg",
+    "ingredients": [
+      "Beeswax",
+      "Vitamin E"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Dryness"
+    ],
+    "price": "300",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "42",
+    "name": "Cleansing Oil",
+    "category": "Oils & Balms",
+    "image": "/uploads/products/cleansing-oil.jpg",
+    "ingredients": [
+      "Jojoba Oil",
+      "Vitamin E"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Cleansing",
+      "Makeup Removal"
+    ],
+    "price": "850",
+    "routineType": "Cleanse",
+    "isMustHave": false
+  },
+  {
+    "id": "43",
+    "name": "Rosehip Oil",
+    "category": "Oils & Balms",
+    "image": "/uploads/products/rosehip-oil.jpg",
+    "ingredients": [
+      "Rosehip Oil"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Moisture",
+      "Scar Healing"
+    ],
+    "price": "1200",
+    "routineType": "Treat",
+    "isMustHave": false
+  },
+  {
+    "id": "44",
+    "name": "Jojoba Oil",
+    "category": "Oils & Balms",
+    "image": "/uploads/products/jojoba-oil.jpg",
+    "ingredients": [
+      "Jojoba Oil"
+    ],
+    "skinType": [
+      "All"
+    ],
+    "concern": [
+      "Moisture",
+      "Hydration"
+    ],
+    "price": "900",
+    "routineType": "Treat",
+    "isMustHave": false
+  }
+]
