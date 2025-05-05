@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="p-4 w-full flex justify-between items-center absolute top-0">
-      <div className="text-5xl font-extrabold ">Lustra</div>
+      <div className="text-5xl font-medium ">Lustra</div>
       <div className="flex justify-between items-center w-[40%] lg:w-[35%]  ">
         <Link href="" className="text-5 text-[black] no-underline block lg:hidden ">Search</Link>
 
@@ -38,3 +38,8 @@ w full lgan e se horizontal scroll kiuu aah rhaa hai
 nav me
 
 */
+
+
+
+
+// #EFDEC5

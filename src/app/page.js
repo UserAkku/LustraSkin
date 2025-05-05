@@ -7,7 +7,7 @@ import MustHave from '../components/MustHave'
 const Page = () => {
   const { products } = useContext(ProductsContext);
   return (
-    <main className='bg-[#9CAA96] w-full'>
+    <main className='w-full'>
       <section className='bg-[url("/uploads/banners/hero-mobile.jpg")] h-screen   bg-cover lg:bg-[url("/uploads/banners/hero-desktop.jpg")]'>
       </section>
       <section className=' h-50 flex justify-center text-center'>
@@ -36,4 +36,8 @@ const Page = () => {
 }
 
 export default Page
+
+
+
+//#9CAA96
 
