@@ -9,9 +9,9 @@ const MustHave = () => {
     const mustHaveProducts = products.filter((product) => product.isMustHave === true)
   return (
 
-    <section className="">
-        <h2 >MUST HAVE</h2>
-            <div className="flex gap-5 overflow-x-auto   ">
+    <section className="ml-5">
+        <h2 className="tracking-widest mb-2 text-xl">MUST HAVE</h2>
+            <div className="flex gap-5 overflow-x-auto  ">
                 {mustHaveProducts.map((product)=> <ProductCard key={product.id} product={product} />)}
             </div>
     </section>
