@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
 
       <section >
         <h2 className='mb-2'>1. Company Information</h2>
-        <p>This website is operated by Lustra Skin. References to "we", "us", and "our" refer to Lustra Skin throughout the site and these terms.</p>
+        <p>{`This website is operated by Lustra Skin. References to "we", "us", and "our" refer to Lustra Skin throughout the site and these terms.`}</p>
       </section>
 
       <section className='my-5'>
