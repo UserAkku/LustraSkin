@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
     <main className='px-70 py-50'>
       <header className='mb-10'>
         <h1 className='mb-8 tracking-widest text-xl '>TERMS & CONDITIONS</h1>
-        <p>Welcome to Lustra Skin. These terms and conditions govern your use of our website and the purchase of products from our online store. By using our website, you agree to these terms in full. If you disagree with any part of these terms, you must not use our website.</p>
+        <p>{`Welcome to Lustra Skin. These terms and conditions govern your use of our website and the purchase of products from our online store. By using our website, you agree to these terms in full. If you disagree with any part of these terms, you must not use our website.`}</p>
       </header>
 
       <section >
@@ -17,12 +17,12 @@ const TermsAndConditions = () => {
 
       <section className='my-5'>
         <h2 className='mb-2'>2. Website Use</h2>
-        <p>You may use this website for lawful purposes only. You must not misuse this website in any way, including committing or encouraging a criminal offense, transmitting or distributing viruses, or attempting to affect the performance or functionality of this website.</p>
+        <p>{`You may use this website for lawful purposes only. You must not misuse this website in any way, including committing or encouraging a criminal offense, transmitting or distributing viruses, or attempting to affect the performance or functionality of this website.`}</p>
       </section>
 
       <section>
         <h2 className='mb-2'>3. Products and Descriptions</h2>
-        <p>We aim to ensure that all details, descriptions, and prices of products are accurate. However, errors may occur. We reserve the right to correct any errors and to update information at any time without prior notice.</p>
+        <p>{`We aim to ensure that all details, descriptions, and prices of products are accurate. However, errors may occur. We reserve the right to correct any errors and to update information at any time without prior notice.`}</p>
       </section>
 
       <section className='my-5'>
