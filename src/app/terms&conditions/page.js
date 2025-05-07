@@ -4,7 +4,7 @@ import React from 'react'
 
 const TermsAndConditions = () => {
   return (
-    <main className='px-70 py-50'>
+    <main className='px-10 lg:px-70  pt-40 pb-20 lg:pt-50 lb:pb-30'>
       <header className='mb-10'>
         <h1 className='mb-8 tracking-widest text-xl '>TERMS & CONDITIONS</h1>
         <p>{`Welcome to Lustra Skin. These terms and conditions govern your use of our website and the purchase of products from our online store. By using our website, you agree to these terms in full. If you disagree with any part of these terms, you must not use our website.`}</p>

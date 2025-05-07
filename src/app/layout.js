@@ -17,7 +17,7 @@ export default function RootLayout({ children}) {
   return (
     <html lang="en">
       <body
-        className="bg-[#9CAA96]"
+        className="bg-[#9CAA96] scrollbar-hide"
       >
         <ProductsProvider>
           <Navbar/>

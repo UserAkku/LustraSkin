@@ -4,7 +4,7 @@ import React from 'react'
 
 const TermsOfSale = () => {
   return (
-    <main className='px-70 py-50'>
+    <main className='px-10 lg:px-70  pt-40 pb-20 lg:pt-50 lb:pb-30'>
       <header className='mb-10'>
         <h1 className='mb-8 tracking-widest text-xl'>TERMS OF SALE</h1>
         <p>{`These Terms of Sale govern all purchases made through Lustra Skin's website. By placing an order with us, you agree to these terms. Please read them carefully before placing your order.`}</p>

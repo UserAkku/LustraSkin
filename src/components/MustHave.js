@@ -11,7 +11,7 @@ const MustHave = () => {
 
     <section className="ml-5">
         <h2 className="tracking-widest mb-2 text-xl">MUST HAVE</h2>
-            <div className="flex gap-5 overflow-x-auto  ">
+            <div className="flex gap-5 overflow-x-auto scrollbar-hide ">
                 {mustHaveProducts.map((product)=> <ProductCard key={product.id} product={product} />)}
             </div>
     </section>

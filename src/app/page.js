@@ -9,15 +9,16 @@ const Page = () => {
   const { products } = useContext(ProductsContext);
   return (
     <main className='w-full'>
-      <section className='bg-[url("/uploads/banners/hero-mobile.jpg")] h-screen   bg-cover lg:bg-[url("/uploads/banners/hero-desktop.jpg")] text-[#2B3315] '>
-        <div className='absolute top-60 right-30'>
-        <h1 className='text-4xl tracking-widest'>Let Your Skin Breathe Again</h1>
-        <p className='text-xl my-2 tracking-wide'>Revive dull, tired skin. Bring back your glow.</p>
-        <Link href="/Range"><button className='bg-[#2B3315] text-[#F9ECCF] text-xl px-2 py-1 rounded '>Shop Now</button></Link>
+      <Link href="/Range">
+      <section className='bg-[url("/uploads/banners/hero-mobile.jpg")] h-[calc(100vh-120px)] lg:h-[calc(100vh-68px)]  bg-cover bg-bottom lg:bg-[url("/uploads/banners/hero-desktop.jpg")] text-[#2B3315]'>
+        <div className='absolute top-70 left-8 md:left-20 lg:left-180 lg:top-50  '>
+        <h1 className='text-2xl  md:text-5xl lg:text-3xl tracking-widest'>Let Your Skin Breathe Again</h1>
+        <p className='md:text-2xl lg:text-xl  my-5 tracking-wide'>Revive dull, tired skin. Bring back your glow.</p>
+        <button className='bg-[#2B3315] text-[#F9ECCF] text-xl px-2 py-1 md:text-3xl md:px-3 md:py-2 lg:text-xl rounded hover:bg-[#F6E7CB] hover:text-[#2B3315] border hover:border-1 transition duration-500'>Shop Now</button>
         </div>
 
 
-      </section>
+      </section></Link>
       <section className=' h-50 flex justify-center text-center'>
         <p className='w-100 my-20 tracking-wider'>
         Whether its your morning routine or a late-night reset, Lustra Skin fits effortlessly into your everyday. No filters, no perfection — just honest skincare for real moments.
