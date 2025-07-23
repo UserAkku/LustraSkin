@@ -8,9 +8,9 @@ import Link from 'next/link'
 const Page = () => {
   const { products } = useContext(ProductsContext);
   return (
-    <main className='w-full'>
+    <main >
       <Link href="/Range">
-      <section className='bg-[url("/uploads/banners/hero-mobile.jpg")] h-[calc(100vh-120px)] lg:h-[calc(100vh-68px)]  bg-cover bg-bottom lg:bg-[url("/uploads/banners/hero-desktop.jpg")] text-[#2B3315]'>
+      <section className='bg-[url("/uploads/banners/hero-mobile.jpg")] h-[calc(100vh-120px)] lg:h-[calc(100vh-68px)]  bg-cover bg-bottom lg:bg-[url("/uploads/banners/hero-desktop.jpg")] text-[rgb(43,51,21)]'>
         <div className='absolute top-70 left-8 md:left-20 lg:left-180 lg:top-50  '>
         <h1 className='text-2xl  md:text-5xl lg:text-3xl tracking-widest'>Let Your Skin Breathe Again</h1>
         <p className='md:text-2xl lg:text-xl  my-5 tracking-wide'>Revive dull, tired skin. Bring back your glow.</p>
